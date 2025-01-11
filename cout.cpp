@@ -11,4 +11,13 @@ int main(){
   int age = 19;
   cout << "Your age is " << age << ".\n"; // 輸出 Your age is 19. 然後換行
 
+  /*
+   * output:
+   * 1
+   * a
+   * 3.14
+   * Hello world
+   * Your age is 19.
+  */
+
 }
