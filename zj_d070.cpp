@@ -7,7 +7,9 @@ int main(){
 
     while (cin >> n){
 
-        if (n == 0) break;
+        if (n == 0){
+            break;
+        }
 
         if (!(n % 400 != 0 && n % 100 == 0) && n % 4 == 0){
             cout << "a leap year\n";
