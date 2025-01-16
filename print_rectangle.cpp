@@ -6,15 +6,11 @@ int main(){
     int n, m;
     cin >> n >> m;
 
-    int i = 0;
-    while (i < n){
-        int j = 0;
-        while (j < m){
+    for (int i = 0; i < n; i++){
+        for (int j = 0; j < m; j++){
             cout << '*';
-            j++;
         }
-        i++;
-        cout << '\n';
+        cout << '\n'; // 輸出完一列就要換行
     }
 
 }
