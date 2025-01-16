@@ -3,14 +3,14 @@ using namespace std;
 
 int main(){
     
-    int n;
-    cin >> n;
+    int N;
+    cin >> N;
 
     // 用 i 表示當前是第幾列
-    for (int i = 1; i <= n; i++){
+    for (int i = 1; i <= N; i++){
 
         // 先處理空格
-        for (int j = 0; j < n - i; j++){
+        for (int j = 0; j < N - i; j++){
             cout << ' ';
         }
 
