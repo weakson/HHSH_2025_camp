@@ -29,6 +29,7 @@ int main(){
                 }
             }
         }
+        if (is_found) break;
     }
 
     if (is_found){
